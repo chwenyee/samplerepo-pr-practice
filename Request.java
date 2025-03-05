@@ -7,7 +7,19 @@ public class Request {
         System.out.println(DIVIDER);
     }
 
+    private static void goodbye() {
+        System.out.println("Bye");
+        System.out.println("Time to sleep!");
+    }
+
+    private static void introduction() {
+        System.out.println("I can help you to manage your tasks!");
+        System.out.println("I hope that I'm useful to you.");
+    }
+
     public static void main(String[] args) {
         greeting();
+        goodbye();
     }
+
 }
