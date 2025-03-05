@@ -7,7 +7,14 @@ public class Request {
         System.out.println(DIVIDER);
     }
 
+    private static void goodbye() {
+        System.out.println("Bye");
+        System.out.println("Time to sleep!");
+    }
+
     public static void main(String[] args) {
         greeting();
+        goodbye();
     }
+
 }
